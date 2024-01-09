@@ -59,6 +59,34 @@ function identifySeason(num){
   }
 }
 
+function menuSelection(num){
+  switch(num){
+    case 1: return "Option 1 selected"
+      break
+    case 2: return "Option 2 selected"
+      break
+    case 3: return "Option 3 selected"
+      break
+    default: return "Invalid choice"
+      break
+ }
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
