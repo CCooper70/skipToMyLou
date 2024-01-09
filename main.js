@@ -29,6 +29,42 @@ function dayOfWeek(day){
  }
 }
 
+function identifySeason(num){
+ switch(num){
+  case 1: return "Winter"
+    break
+  case 2: return "Winter"
+    break
+  case 3: return "Spring"
+    break
+  case 4: return "Spring"
+    break
+  case 5: return "Spring"
+    break
+  case 6: return "Summer"
+    break
+  case 7: return "Summer"
+    break
+  case 8: return "Summer"
+   break
+  case 9: return "Autumn"
+    break
+  case 10: return "Autumn"
+    break
+  case 11: return "Autumn"
+    break
+  case 12: return "Winter"
+   break
+  default: break
+  }
+}
+
+
+
+
+
+
+
 /****************************/
 // Our code here. Don't touch!
 if (typeof dayOfWeek === 'undefined') {
